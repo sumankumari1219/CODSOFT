@@ -12,7 +12,6 @@ passw=IntVar()
 genpass=StringVar()
 
 def generate():
-    # print(uname.get())
     s1=string.ascii_letters
     s2=string.punctuation
     s3=string.digits
