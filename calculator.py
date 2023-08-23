@@ -2,8 +2,7 @@ from tkinter import *
 root=Tk()
 
 root.geometry("260x400")
-root.minsize(260,400)
-root.maxsize(260,400)
+root.reszable(0,0)
 
 root.title("Calculator")
 
@@ -11,7 +10,6 @@ scvalue=StringVar()
 scvalue.set("")
 screen=Entry(root,textvar=scvalue,font="lucida 30")
 screen.pack(padx=10,pady=10)
-screen.focus()
 def click(event):
     global scvalue
     text=event.widget.cget("text")
