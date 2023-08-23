@@ -2,7 +2,7 @@ from tkinter import *
 root=Tk()
 
 root.geometry("260x400")
-root.reszable(0,0)
+root.resizable(0,0)
 
 root.title("Calculator")
 
